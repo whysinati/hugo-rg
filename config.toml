@@ -2,6 +2,7 @@ baseURL = "https://whysinati.github.io/hugo-rg/"
 languageCode = "en"
 title = "Rachel S. Gross"
 theme = "hugo-initio"
+publishDir = "docs"
 
 [params]
 
