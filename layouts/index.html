@@ -1,0 +1,45 @@
+{{ define "main"}}
+  <main id="main">
+
+    <div class="container">
+  
+      {{ if .Site.Params.showSubheader }}
+        {{ partial "home/subheader.html" . }}
+      {{ end }}
+      
+        {{ range .Site.Sections }}
+            {{ range .Sections.ByWeight }}
+                {{ $stype := .Type}}
+                {{ if (or (and (eq $stype "research") (.Site.Params.showResearch)) (and (eq $stype "curriculum-vitae") (.Site.Params.showCurriculumVitae)) (and (eq $stype "projects") (.Site.Params.showProjects)) (and (eq $stype "media") (.Site.Params.showMedia)) (and (eq $stype "partners") (.Site.Params.showPartners)) (eq $stype "single")) }}
+
+                     <div class="row section featured topspace">
+                       <h2 class="section-title">
+                         <span>{{.Title}}</span>
+                       </h2>
+                     {{ if eq $stype "research" }}
+                       {{ partial "home/research.html" . }}
+
+                    {{ else if eq $stype "curriculum-vitae" }}
+                       {{ partial "home/curriculum-vitae.html" . }}
+
+                     {{ else if eq $stype "projects" }}
+                       {{ partial "home/projects.html" . }}
+
+                     {{ else if eq $stype "media" }}
+                       {{ partial "home/media.html" . }}
+
+                     {{ else if eq $stype "partners" }}
+                       {{ partial "home/partners.html" . }}
+
+                     {{ else if eq $stype "single"  }}
+                       {{ partial "home/single.html" . }}
+
+                     {{ end }}
+                </div>	<!-- /section -->
+              {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>	<!-- /container -->
+  </main>
+
+{{ end }}
