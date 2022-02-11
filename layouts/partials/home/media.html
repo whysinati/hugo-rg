@@ -1,0 +1,15 @@
+
+<div class="row">
+    {{ range where .Data.Pages "Section" .Section }}
+      <div class="col-sm-6 col-md-3">
+        <h3 class="text-center">{{ .Title }}</h3>
+        <p>{{ .Summary }}</p>
+        <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">Full List</a></p>
+      </div>
+      <!-- {{ $stype := .Type}}
+      {{ if (eq $stype "media4" ) }}
+      <p>xxxxx</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/w0bkzIiatvg?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe>
+      {{ end }} -->
+    {{ end }}
+</div>
