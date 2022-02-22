@@ -20,7 +20,7 @@ Checkout these cool exhibits and tours to learn more about the fascinating histo
 
 [“UM Students Present Outdoor Gear Exhibit at Missoula Historical Museum”](https://news.umt.edu/2019/01/011819gear.php)
 
-[“Outdoor Gear History Exhibit Opens at Fort Missoula”](https://www.abcfoxmontana.com/missoula/news/outdoor-gear-history-exhibit-opens-at-fort-missoula/article_05e40922-1fdb-11e9-896d-d78b5bbc5e2a.html)![Missoula Exhibit](/images/missoula-exhibit.jpg)
+[“Outdoor Gear History Exhibit Opens at Fort Missoula”](https://www.abcfoxmontana.com/missoula/news/outdoor-gear-history-exhibit-opens-at-fort-missoula/article_05e40922-1fdb-11e9-896d-d78b5bbc5e2a.html)![Missoula Exhibit](../../../images/missoula-exhibit.jpg)
 
 Guide and tour author, “Unseen Missoula” history tours, in partnership with the Missoula Historic Preservation Office, June 2018 – present
 
@@ -34,4 +34,9 @@ Editorial board, _Edge Effects_ digital magazine, Center for Culture, History, a
 
 “What Retreating to the Canadian North Woods Tells Us About Nature and Ourselves,” film introduction at [Tales for Planet Earth Environmental Film Festival](http://www.nelson.wisc.edu/tales/), Madison, WI, 2015. Read a short excerpt of that introduction [here](http://edgeeffects.net/tales-from-tales/).
 {{</ biblio-ref >}}
-* Put carousel of media images here *
+
+{{< carousel items="1" height="1000" unit="px" duration="10000" >}}
+<!-- {{< carousel items="1" height="1000" unit="px" duration="10000" >}} -->
+<!-- {{< carousel items="2" height="100" unit="%" duration="10000" >}} -->
+<!-- {{< carousel items="1" height="25" unit="%" duration="10000" >}} -->
+<!-- {{< carousel items="1" height="500" unit="px" duration="7000" >}} -->

@@ -18,15 +18,15 @@
     {
         "id": 1,
         "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
+        "image": "images/mountain0.jpg",
         "url": "#",
         "items": [
             {
-                "name": "Web design",
+                "name": "Xxxx",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
+                "name": "Yyyy",
                 "url": "#"
             }
         ]
@@ -34,15 +34,15 @@
     {
         "id": 2,
         "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
+        "image": "images/mountain1.jpg",
         "url": "#",
         "items": [
             {
-                "name": "Web design",
+                "name": "Zzzzz",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "Aaaaa",
                 "url": "#"
             }
         ]
@@ -50,15 +50,15 @@
     {
         "id": 3,
         "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
+        "image": "images/mountain0.jpg",
         "url": "#",
         "items": [
             {
-                "name": "Web design",
+                "name": "Bbbbb",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
+                "name": "Cccccc",
                 "url": "#"
             }
         ]

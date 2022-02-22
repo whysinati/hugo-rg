@@ -5,7 +5,7 @@ type = "about"
 weight = 10
 +++
 
-<!-- ![about](../images/nordic.jpeg) -->
+<!-- ![about](../images/nordic.jpeg?width=50px) -->
 
 Rachel S. Gross is an [environmental and cultural historian](/research) of the modern U.S. and an [Assistant Professor of History](https://clas.ucdenver.edu/history/rachel-gross-0) at the [University of Colorado Denver](https://clas.ucdenver.edu/history/). In 2019 she was a Carson Fellow at the Rachel Carson Center in Munich and a [Postdoctoral Teaching, Research, and Mentoring Fellow](http://www.dhc.umt.edu/dhc-programs/trm-fellows-program.php) at the [Davidson Honors College](http://www.dhc.umt.edu/about/default.php) of the [University of Montana](http://www.umt.edu/).
 

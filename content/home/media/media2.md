@@ -23,11 +23,11 @@ Pause for a moment to read and ponder about the next time you explore the great 
 “[20th Century Camping with Abercrombie and Fitch](http://americanhistory.si.edu/blog/2014/05/camping-with-the-historical-abercrombie-fitch-catalog.html),” _O Say Can You See_, Smithsonian National Museum of American History blog, May 2014
 “[How to Read an Outdoor Catalog](http://edgeeffects.net/help-ive-got-gas/),” Edge Effects, November 2014
 {{</ biblio-ref >}}
-![Outdoor Catalog Covers](/images/catalog-covers.jpg)
+![Outdoor Catalog Covers](../../../images/catalog-covers.jpg)
 &#32;
 &#32;\
 &#32;\
 {{< biblio-ref >}}
 “[Trail Tradition: When Hikers Shun Innovation](http://si-siris.blogspot.com/2014/05/trail-tradition-when-hikers-shun.html),” Smithsonian Institution Collections blog, May 2014
 {{</ biblio-ref >}}
-![Appalachian Trail Book](/images/walking-with-spring-e1489976803300.jpg)
+![Appalachian Trail Book](../../../images/walking-with-spring-e1489976803300.jpg)

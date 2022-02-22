@@ -32,14 +32,11 @@
 			{{ end }}
 
 			{{ if .Site.Params.showFooterTextWidget }}
-			<div class="col-md-3 widget">
-				<h3 class="widget-title">Text widget</h3>
+			<div class="col-md-6 widget">
+				<h3 class="widget-title">Acknowledgements</h3>
 				<div class="widget-body">
 					<p>
 						{{ i18n "footer_text1" . | markdownify }}
-					</p>
-					<p>
-						{{ i18n "footer_text2" . | markdownify }}
 					</p>
 				</div>
 			</div>
@@ -47,12 +44,10 @@
 
 			{{ if .Site.Params.showFooterFormWidget }}
 			<div class="col-md-3 widget">
-				<h3 class="widget-title">Form widget</h3>
+				<h3 class="widget-title">&nbsp;</h3>
 				<div class="widget-body">
-					<p>{{ if .Site.Params.phone }}{{ .Site.Params.phone }}<br>{{ end }}
-					{{ if .Site.Params.email }}<a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a><br>{{ end }}
-					<br>
-					{{ if .Site.Params.address }}{{ .Site.Params.address }}{{ end }}
+					<p>
+						{{ i18n "footer_text2" . | markdownify }}
 					</p>
 				</div>
 			</div>
@@ -91,11 +86,20 @@
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<!-- <script type="text/javascript" src="../../../assets/js"></script> -->
+<script type="text/javascript" src="/js/carousel.js"></script>
 
 {{ $template := resources.Get "js/template.js" }}
 {{ $html5shiv := resources.Get "js/html5shiv.js" }}
 {{ $js := (slice $template $html5shiv | resources.Concat "js/bundle.js") | resources.Minify | resources.Fingerprint "sha512" }}
+
+{{ $carousel := resources.Get "js/carousel.js" }}
+{{ $cjs := (slice $carousel | resources.Concat "js/cbundle.js") | resources.Minify | resources.Fingerprint "sha512" }}
+<!-- {{ $carousel := resources.Get "js/carousel.js" }} -->
+<!-- {{ $js := (slice $template $html5shiv $carousel | resources.Concat "js/bundle.js") | resources.Minify | resources.Fingerprint "sha512" }} -->
+<!-- <script type="text/javascript" src="{{ $carousel }}"></script> -->
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+<script src="{{ $cjs.Permalink }}" integrity="{{ $cjs.Data.Integrity }}"></script>
 
 {{ if .Site.Params.disqus -}}
 <script id="dsq-count-scr" src="//{{ .Site.Params.disqus.site }}/count.js" async></script>
