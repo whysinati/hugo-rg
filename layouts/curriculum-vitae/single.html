@@ -24,6 +24,8 @@
   
   		</div>
   	</div>	<!-- /container -->
-  
+	  <div>
+		{{ partial "carousel.html" (dict "context" . "items" "1" "height" "25" "unit" "%" "duration" "5000") }}
+	  </div>
   </main>
 {{ end }}

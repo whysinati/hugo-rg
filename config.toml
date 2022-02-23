@@ -22,13 +22,9 @@ publishDir = "docs"
     showSubheader = true
     showResearch = true
     showCurriculumVitae = false
-    showProjects = true
+    showProjects = false
     showMedia = true
     showPartners = true
-
-    showRecentWorks = true
-    showDownloads = true
-    showClients = true
 
     showFooterContact = true
     showFooterFollowMe = true
@@ -98,3 +94,8 @@ publishDir = "docs"
     footer = true
     sharethis = true
     network = "email"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

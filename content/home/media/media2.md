@@ -21,13 +21,6 @@ Pause for a moment to read and ponder about the next time you explore the great 
 “[The Surprise that REI is Closing on Black Friday Shouldn’t Really Be a Surprise at all](http://historynewsnetwork.org/article/161308),” History News Network, November 2015
 “[The Case of the Insulated Underwear: Dacron and DuPont Brand Awareness](http://www.hagley.org/librarynews/case-insulated-underwear-dacron-and-dupont-brand-awareness),” Hagley Library blog, March 2014
 “[20th Century Camping with Abercrombie and Fitch](http://americanhistory.si.edu/blog/2014/05/camping-with-the-historical-abercrombie-fitch-catalog.html),” _O Say Can You See_, Smithsonian National Museum of American History blog, May 2014
-“[How to Read an Outdoor Catalog](http://edgeeffects.net/help-ive-got-gas/),” Edge Effects, November 2014
+“[How to Read an Outdoor Catalog](http://edgeeffects.net/help-ive-got-gas/),” Edge Effects, November 2014<div style="text-align: center;">![Outdoor Catalog Covers](../../../images/catalog-covers.jpg)</div>
+“[Trail Tradition: When Hikers Shun Innovation](http://si-siris.blogspot.com/2014/05/trail-tradition-when-hikers-shun.html),” Smithsonian Institution Collections blog, May 2014<div style="text-align: center;">![Appalachian Trail Book](../../../images/walking-with-spring-e1489976803300.jpg)</div>
 {{</ biblio-ref >}}
-![Outdoor Catalog Covers](/images/catalog-covers.jpg)
-&#32;
-&#32;\
-&#32;\
-{{< biblio-ref >}}
-“[Trail Tradition: When Hikers Shun Innovation](http://si-siris.blogspot.com/2014/05/trail-tradition-when-hikers-shun.html),” Smithsonian Institution Collections blog, May 2014
-{{</ biblio-ref >}}
-![Appalachian Trail Book](/images/walking-with-spring-e1489976803300.jpg)

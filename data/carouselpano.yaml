@@ -1,0 +1,21 @@
+images: 
+  - image: ../uploads/slider/landscapes/mountainA.jpg
+    # content_html: "Sierras"   # re-add to include a description on the pic
+  - image: ../uploads/slider/landscapes/mountainZ.jpg
+    # content_html: "Sierras"  
+  - image: ../uploads/slider/landscapes/mountainB.jpg
+    # content_html: "4"    
+  - image: ../uploads/slider/landscapes/mountainC.jpg
+    # content_html: "5"    
+  - image: ../uploads/slider/landscapes/mountainD.jpg
+    # content_html: "6"    
+  - image: ../uploads/slider/landscapes/mountainE.jpg
+    # content_html: "7"    
+  - image: ../uploads/slider/landscapes/mountainF.jpg
+    # content_html: "8"    
+  - image: ../uploads/slider/landscapes/mountainG.jpg
+    # content_html: "3"    
+  - image: ../uploads/slider/landscapes/mountainH.jpg
+    # content_html: "2"    
+  - image: ../uploads/slider/landscapes/mountainI.jpg
+  # works in layouts/about/single.html

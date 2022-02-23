@@ -14,6 +14,14 @@
   {{ $css := $styles | resources.Minify | resources.Fingerprint "sha512"  }}
   <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
 
+  <!-- Carousel -->
+  {{ $carousel := resources.Get "css/carousel.css" }}
+  {{ $css := $carousel | resources.Minify | resources.Fingerprint "sha512"  }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
+
+  <!-- <link rel="stylesheet" href="/css/carousel.css"> -->
+  <!-- <link rel="stylesheet" href="/assets/css/carousel.css"> -->
+  
   <!-- Share this --> 
   {{ if .Site.Params.customsharethis }}
 	<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property={{ .Site.Params.sharethis.property }}&product=custom-share-buttons"></script>
