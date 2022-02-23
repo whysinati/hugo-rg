@@ -1,7 +1,0 @@
-images: 
-  - image: ../../../uploads/slider/mountain0.jpg
-    content_html: "1"
-  - image: ../../../images/mountain1.jpg
-    content_html: "2"
-  - image: ../../../images/mountain.jpg
-    content_html: "3"    

@@ -17,4 +17,4 @@ Dr. Gross works with university and community partners to bring history into the
 
 While you’re here, you can take a look at her [writing](/writing), explore courses she's [taught](/teaching), or review her [CV](/cv). You can also follow her on [Twitter](https://twitter.com/rachelsgross).
 
-![about](../images/mountain1.jpg)
+<!-- ![about](../images/mountain1.jpg) -->

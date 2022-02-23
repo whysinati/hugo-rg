@@ -252,4 +252,4 @@ Business History Conference
 {{</ biblio-ref >}}
 
 _{{< right >}}updated July 2021{{</ right >}}_
-![Curriculum Vitae](../images/mountain0.jpg)
+<!-- ![Curriculum Vitae](../images/mountain0.jpg) -->

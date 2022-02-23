@@ -10,8 +10,9 @@
   
   				<div class="nav text-right nav-side">
   					<!-- <li class="active"><a href="#">{{ .Title }}</a></li> -->
-					<li class="active"><a href="#">{{ .Title }}</a></li>
-					<li class="active" style="padding-right: 12px;"><img src="../images/nordic.jpeg" alt="Nordic Ski Headshot" width="150px"></li>
+					  <!-- <li class="active" style="padding-right: 12px;"><img src="../images/nordic.jpeg" alt="Nordic Ski Headshot" width="150px"></li> -->
+					<li class="active">{{ .Title }}</li>
+					<li class="active"><img src="../images/nordic.jpeg" alt="Nordic Ski Headshot" width="150px"></li>
   				</div>
   
   			</aside>
@@ -26,6 +27,8 @@
   
   		</div>
   	</div>	<!-- /container -->
-  
+	  <div>
+		{{ partial "carousel.html" (dict "context" . "items" "1" "height" "25" "unit" "%" "duration" "5000") }}
+	  </div>
   </main>
 {{ end }}
