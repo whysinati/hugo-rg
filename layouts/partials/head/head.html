@@ -8,6 +8,9 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.11/js/all.js" integrity="sha384-ImVoB8Er8knetgQakxuBS4G3RSkyD8IZVVQCAnmRJrDwqJFYUE4YOv+DbIofcO9C" crossorigin="anonymous"></script>
 	
 	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
 	
 	{{ $styles := resources.Get "css/styles.css" }}
@@ -18,9 +21,6 @@
   {{ $carousel := resources.Get "css/carousel.css" }}
   {{ $css := $carousel | resources.Minify | resources.Fingerprint "sha512"  }}
   <link rel="stylesheet" href="{{ $css.Permalink }}" integrity="{{ $css.Data.Integrity }}">
-
-  <!-- <link rel="stylesheet" href="/css/carousel.css"> -->
-  <!-- <link rel="stylesheet" href="/assets/css/carousel.css"> -->
   
   <!-- Share this --> 
   {{ if .Site.Params.customsharethis }}

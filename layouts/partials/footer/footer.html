@@ -71,8 +71,7 @@
 				<div class="widget-body">
 					<p class="text-right">
 						Copyright &copy; {{ .Site.Params.year }}, {{ .Site.Params.name }}<br>
-						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
-						Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+						Design based on <a href="http://www.gettemplate.com" rel="designer">Initio</a> and <a href="https://github.com/miguelsimoni/hugo-initio" rel="designer">Hugo-Initio</a>
 					</p>
 				</div>
 			</div>
@@ -86,7 +85,6 @@
 <!-- JavaScript libs are placed at the end of the document so the pages load faster -->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-<!-- <script type="text/javascript" src="../../../assets/js"></script> -->
 <script type="text/javascript" src="/js/carousel.js"></script>
 
 {{ $template := resources.Get "js/template.js" }}
@@ -95,9 +93,7 @@
 
 {{ $carousel := resources.Get "js/carousel.js" }}
 {{ $cjs := (slice $carousel | resources.Concat "js/cbundle.js") | resources.Minify | resources.Fingerprint "sha512" }}
-<!-- {{ $carousel := resources.Get "js/carousel.js" }} -->
-<!-- {{ $js := (slice $template $html5shiv $carousel | resources.Concat "js/bundle.js") | resources.Minify | resources.Fingerprint "sha512" }} -->
-<!-- <script type="text/javascript" src="{{ $carousel }}"></script> -->
+
 <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 <script src="{{ $cjs.Permalink }}" integrity="{{ $cjs.Data.Integrity }}"></script>
 
